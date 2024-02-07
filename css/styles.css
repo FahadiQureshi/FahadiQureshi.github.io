@@ -19,3 +19,14 @@
 {
     text-align;center;
 }
+#certificates {
+    text-align: center; /* Center-align the content within this div */
+}
+
+.heading {
+    margin-bottom: 20px; /* Optional: Add some spacing between the heading and the content */
+}
+
+.project {
+    /* Add any styling you need for the content */
+}
