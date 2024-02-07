@@ -21,11 +21,12 @@
         6. Experience Styles
         7. Education Styles
         8. Project Styles
+        9. certificates Styles
         9. Skills Styles
         10. Contact Styles
         11. Optional Section Styles
         12. Media Queries
-        13. certificates
+        
 */
 
 /*
@@ -688,10 +689,25 @@ footer {
 #more-projects {
     display: none;
 }
+/*
+    -----------------------------
+    ----- 9. certificates ------
+    -----------------------------
+*/
+#certificates {
+    padding: 50px 15px;
+    border-bottom: 1px solid $border;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+}
 
 /*
     -------------------------------
-    ----- 9. Skills Styles -----
+    ----- 10. Skills Styles -----
     -------------------------------
 */
 
@@ -725,7 +741,7 @@ footer {
 
 /*
     -------------------------------
-    ----- 10. Contact Styles -----
+    ----- 11. Contact Styles -----
     -------------------------------
 */
 
@@ -790,7 +806,7 @@ footer {
 
 /*
     ---------------------------------------
-    ----- 11. Optional Section Styles -----
+    ----- 12. Optional Section Styles -----
     ---------------------------------------
 */
 
@@ -838,7 +854,7 @@ footer {
 
 /*
     -----------------------------
-    ----- 12. Media Queries -----
+    ----- 13. Media Queries -----
     -----------------------------
 */
 
@@ -1001,18 +1017,3 @@ footer {
 
 }
 
-/*
-    -----------------------------
-    ----- 12. certificates ------
-    -----------------------------
-*/
-#projects {
-    padding: 50px 15px;
-    border-bottom: 1px solid $border;
-    text-align: center;
-
-    h2 {
-        color: $heading;
-        margin-bottom: 50px;
-    }
-}
